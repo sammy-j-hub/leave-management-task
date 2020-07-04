@@ -1,0 +1,21 @@
+{
+  "name": "company-bot",
+  "version": "1.0.0",
+  "description": "leave management system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sam",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^4.9.2",
+    "botbuilder-ai": "^4.9.2",
+    "botbuilder-dialogs": "^4.9.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4",
+    "restify": "^8.5.1"
+  }
+}
