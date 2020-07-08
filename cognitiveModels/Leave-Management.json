@@ -1,0 +1,183 @@
+{
+  "luis_schema_version": "7.0.0",
+  "intents": [
+    {
+      "name": "HR",
+      "features": []
+    },
+    {
+      "name": "LeaveBalance",
+      "features": []
+    },
+    {
+      "name": "None",
+      "features": []
+    },
+    {
+      "name": "RequestForLeave",
+      "features": []
+    },
+    {
+      "name": "RequestStatus",
+      "features": []
+    }
+  ],
+  "entities": [],
+  "hierarchicals": [],
+  "composites": [],
+  "closedLists": [],
+  "prebuiltEntities": [],
+  "utterances": [
+    {
+      "text": "any form for leave",
+      "intent": "RequestForLeave",
+      "entities": []
+    },
+    {
+      "text": "can i apply for leave",
+      "intent": "RequestForLeave",
+      "entities": []
+    },
+    {
+      "text": "can i know how many leaves i can take",
+      "intent": "LeaveBalance",
+      "entities": []
+    },
+    {
+      "text": "can i take the leave?",
+      "intent": "RequestStatus",
+      "entities": []
+    },
+    {
+      "text": "can i talk to hr",
+      "intent": "HR",
+      "entities": []
+    },
+    {
+      "text": "dont we get extra offs",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how can i apply for leave",
+      "intent": "RequestForLeave",
+      "entities": []
+    },
+    {
+      "text": "how many leaves are left",
+      "intent": "LeaveBalance",
+      "entities": []
+    },
+    {
+      "text": "how many leaves did i take",
+      "intent": "LeaveBalance",
+      "entities": []
+    },
+    {
+      "text": "hr",
+      "intent": "HR",
+      "entities": []
+    },
+    {
+      "text": "hr bot",
+      "intent": "HR",
+      "entities": []
+    },
+    {
+      "text": "hr help",
+      "intent": "HR",
+      "entities": []
+    },
+    {
+      "text": "is my status granted",
+      "intent": "RequestStatus",
+      "entities": []
+    },
+    {
+      "text": "is my status still pending",
+      "intent": "RequestStatus",
+      "entities": []
+    },
+    {
+      "text": "leave application",
+      "intent": "RequestForLeave",
+      "entities": []
+    },
+    {
+      "text": "leave balance",
+      "intent": "LeaveBalance",
+      "entities": []
+    },
+    {
+      "text": "leaves i can take for the year",
+      "intent": "LeaveBalance",
+      "entities": []
+    },
+    {
+      "text": "leaves left",
+      "intent": "LeaveBalance",
+      "entities": []
+    },
+    {
+      "text": "leaves taken",
+      "intent": "LeaveBalance",
+      "entities": []
+    },
+    {
+      "text": "request for leave",
+      "intent": "RequestForLeave",
+      "entities": []
+    },
+    {
+      "text": "request status",
+      "intent": "RequestStatus",
+      "entities": []
+    },
+    {
+      "text": "take me to hr",
+      "intent": "HR",
+      "entities": []
+    },
+    {
+      "text": "what is my application status",
+      "intent": "RequestStatus",
+      "entities": []
+    },
+    {
+      "text": "what is my leave balance",
+      "intent": "LeaveBalance",
+      "entities": []
+    },
+    {
+      "text": "what is my leave request status",
+      "intent": "RequestStatus",
+      "entities": []
+    },
+    {
+      "text": "what should i do to request for leave",
+      "intent": "RequestForLeave",
+      "entities": []
+    },
+    {
+      "text": "when can i take a leave",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "why is this leave thing not working",
+      "intent": "None",
+      "entities": []
+    }
+  ],
+  "versionId": "0.1",
+  "name": "Leave-Management",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "phraselists": [],
+  "regex_features": [],
+  "patterns": [],
+  "settings": []
+}
