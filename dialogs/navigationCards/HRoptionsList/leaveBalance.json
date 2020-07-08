@@ -1,0 +1,78 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.2",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "isSubtle": true,
+                            "text": "Leave Balance",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "separator": true,
+            "spacing": "Medium",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Employee",
+                            "isSubtle": true,
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Alloted",
+                            "spacing": "Small"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Avaliable",
+                            "spacing": "Small"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Right",
+                            "isSubtle": true,
+                            "weight": "Bolder",
+                            "text": "Leaves"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "21",
+                            "horizontalAlignment": "Right",
+                            "spacing": "Small"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "2",
+                            "horizontalAlignment": "Right",
+                            "spacing": "Small"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
